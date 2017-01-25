@@ -157,7 +157,7 @@ var gSearch = (function () {
         } else {
           _selectId(_values.targetId).innerHTML = ''; //clear the ul
         }
-        if (_values.callback() !== undefined) _values.callback();
+        if (_values.callback !== undefined) _values.callback();
       }
     });
   };
